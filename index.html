@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind Website</title>
+
+    <script src="/style/tailwind-3.3.1"></script>
+    <link rel="stylesheet" href="/style/style.css" />
+  </head>
+  <body>
+    <nav class="space-x-4 pt-4 pr-12 pb-4 pl-12 relative">
+      <div class="flex justify-between">
+        <div class="logo w-72">
+          <img src="/images/logo.png" alt="logo" />
+        </div>
+        <div class="nav-menu pt-2">
+          <a
+            href="#"
+            class="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900"
+            >Home</a
+          >
+          <a
+            href="#"
+            class="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900"
+            >Product</a
+          >
+          <a
+            href="#"
+            class="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900"
+            >About Us</a
+          >
+          <a
+            href="#"
+            class="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900"
+            >Contact Us</a
+          >
+        </div>
+      </div>
+    </nav>
+    <section class="hero bg-amber-50 h-auto">
+      <div class="grid grid-cols-2">
+        <div class="hero-text uppercase">
+          <h2
+            class="text-6xl flex flex-col pt-12 pl-12 font-semibold leading-normal"
+          >
+            <span class="text-yellow-500">Be the Penguins</span>
+            <span>of Winter</span>
+          </h2>
+          <p class="flex flex-col pl-12 text-neutral-600">
+            <span>Lorem Ipsum is simply dummy text of the printing</span>
+            <span> and typesetting industry.</span>
+          </p>
+        </div>
+        <div class="hero-img hero-img flex place-content-center">
+          <img class="max-h-96 pt-4 pb-4" src="/images/model.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="cards">
+      <div class="mens-Hoodie">
+        <h3 class="font-bold text-2xl pt-12 pl-12 pb-6">Mens Hoodies</h3>
+        <div class="hoodie-card flex justify-evenly">
+          <div class="bg-white rounded-lg drop-shadow-lg">
+            <img
+              class="bg-slate-100 m-5 rounded-lg w-80 h-64"
+              src="/images/jacket-1.png"
+              alt=""
+            />
+            <div class="m-5">
+              <h3 class="font-bold">Your White Hoodie</h3>
+              <span class="text-sm font-light">
+                Lorem ipsum dolor sit amet consectetur <br />
+                adipisicing elit. Eius, dolore.
+              </span>
+            </div>
+          </div>
+          <div class="bg-white rounded-lg drop-shadow-lg">
+            <img
+              class="bg-slate-100 m-5 rounded-lg w-80 h-64"
+              src="/images/jacket-2.png"
+              alt=""
+            />
+            <div class="m-5">
+              <h3 class="font-bold">Your White Hoodie</h3>
+              <span class="text-sm font-light">
+                Lorem ipsum dolor sit amet consectetur <br />
+                adipisicing elit. Eius, dolore.
+              </span>
+            </div>
+          </div>
+          <div class="bg-white rounded-lg drop-shadow-lg">
+            <img
+              class="bg-slate-100 m-5 rounded-lg w-80 h-64"
+              src="/images/jacket-3.png"
+              alt=""
+            />
+            <div class="m-5">
+              <h3 class="font-bold">Your Yellow Hoodie</h3>
+              <span class="text-sm font-light">
+                Lorem ipsum dolor sit amet consectetur <br />
+                adipisicing elit. Eius, dolore.
+              </span>
+            </div>
+          </div>
+        </div>
+        <h3 class="font-bold text-2xl pt-12 pl-12 pb-6">Mens Jacket</h3>
+        <div class="hoodie-card flex justify-evenly">
+          <div class="bg-white rounded-lg drop-shadow-lg">
+            <img
+              class="bg-slate-100 m-5 p-6 rounded-lg w-80 h-64"
+              src="/images/jacket-4.png"
+              alt=""
+            />
+            <div class="m-5">
+              <h3 class="font-bold">Snowboard Jacket Mens</h3>
+              <span class="text-sm font-light">
+                Lorem ipsum dolor sit amet consectetur <br />
+                adipisicing elit. Eius, dolore.
+              </span>
+            </div>
+          </div>
+          <div class="bg-white rounded-lg drop-shadow-lg">
+            <img
+              class="bg-slate-100 m-5 p-6 rounded-lg w-80 h-64"
+              src="/images/jacket-5.png"
+              alt=""
+            />
+            <div class="m-5">
+              <h3 class="font-bold">Man Leather Jackets</h3>
+              <span class="text-sm font-light">
+                Lorem ipsum dolor sit amet consectetur <br />
+                adipisicing elit. Eius, dolore.
+              </span>
+            </div>
+          </div>
+          <div class="bg-white rounded-lg drop-shadow-lg">
+            <img
+              class="bg-slate-100 m-5 p-6 rounded-lg w-80 h-64"
+              src="/images/jacket-6.png"
+              alt=""
+            />
+            <div class="m-5">
+              <h3 class="font-bold">Man Casual Jackets</h3>
+              <span class="text-sm font-light">
+                Lorem ipsum dolor sit amet consectetur <br />
+                adipisicing elit. Eius, dolore.
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mens-Jacket"></div>
+    </section>
+    <section>
+      <div class="grid grid-rows-3 grid-cols-2 grid-flow-col">
+        <!-- <div>
+          <div class="flex bg-white p-5 mx-12 mt-12 rounded-lg drop-shadow-lg">
+            <img class="w-16" src="/images/house.png" alt="" />
+            <div>
+              <h4>Find the Perfect Fit</h4>
+              <span
+                >Everybody is different, which is why we <br />
+                offer styles for every body.
+              </span>
+            </div>
+          </div>
+        </div> -->
+        <div
+          class="max-w-md mx-auto my-5 bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl"
+        >
+          <div class="md:flex">
+            <div class="md:shrink-0">
+              <img
+                class="h-48 w-full object-cover md:h-full md:w-48"
+                src="/images/house.png"
+                alt="House Image"
+              />
+            </div>
+            <div class="p-8">
+              <div
+                class="uppercase tracking-wide text-sm text-indigo-500 font-semibold"
+              >
+                Company retreats
+              </div>
+              <a
+                href="#"
+                class="block mt-1 text-lg leading-tight font-medium text-black hover:underline"
+                >Incredible accommodation for your team</a
+              >
+              <p class="mt-2 text-slate-500">
+                Looking to take your team away on a retreat to enjoy awesome
+                food and take in some sunshine? We have a list of places to do
+                just that.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="max-w-md mx-auto my-5 bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl"
+        >
+          <div class="md:flex">
+            <div class="md:shrink-0">
+              <img
+                class="h-48 w-full object-cover md:h-full md:w-48"
+                src="/images/box.png"
+                alt="Box Image"
+              />
+            </div>
+            <div class="p-8">
+              <div
+                class="uppercase tracking-wide text-sm text-indigo-500 font-semibold"
+              >
+                Company retreats
+              </div>
+              <a
+                href="#"
+                class="block mt-1 text-lg leading-tight font-medium text-black hover:underline"
+                >Incredible accommodation for your team</a
+              >
+              <p class="mt-2 text-slate-500">
+                Looking to take your team away on a retreat to enjoy awesome
+                food and take in some sunshine? We have a list of places to do
+                just that.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="max-w-md mx-auto my-5 bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl"
+        >
+          <div class="md:flex">
+            <div class="md:shrink-0">
+              <img
+                class="h-48 w-full object-cover md:h-full md:w-48"
+                src="/images/question.png"
+                alt="HeadPhone Image"
+              />
+            </div>
+            <div class="p-8">
+              <div
+                class="uppercase tracking-wide text-sm text-indigo-500 font-semibold"
+              >
+                Company retreats
+              </div>
+              <a
+                href="#"
+                class="block mt-1 text-lg leading-tight font-medium text-black hover:underline"
+                >Incredible accommodation for your team</a
+              >
+              <p class="mt-2 text-slate-500">
+                Looking to take your team away on a retreat to enjoy awesome
+                food and take in some sunshine? We have a list of places to do
+                just that.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row-span-3 my-6 mr-12">
+          <img src="/images/shopping.png" alt="" />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
